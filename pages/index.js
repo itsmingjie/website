@@ -3,6 +3,8 @@ import Row from "../components/Row";
 import Column from "../components/Column";
 import ImageBox from "../components/ImageBox";
 import Profile from "../components/Profile";
+import SponsorCard from "../components/SponsorCard";
+
 export default class Index extends React.Component {
     render(){
         return(
@@ -40,6 +42,9 @@ export default class Index extends React.Component {
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <h1>Our Sponsors</h1>
+                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                        <SponsorCard src="../static/sponsor/balsamiq-logo.svg"/>
+                    </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <h1>Our Team</h1>
