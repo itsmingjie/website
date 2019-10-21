@@ -11,6 +11,8 @@
                 @media only screen and (max-width:685px) {
                     .row {
                         flex-direction:column !important;
+                        height: 70vh;
+                        margin-top:50px;
                     }
                 }
                 

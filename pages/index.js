@@ -39,11 +39,15 @@ export default class Index extends React.Component {
                     </Row>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
+                    <h1>Our Sponsors</h1>
+                </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <h1>Our Team</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Jacob Haap" desc="Executive Director"/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Faham Tak" desc="Director of Hacker Experience"/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="JP Mason" desc="Director of Finance & Sponsorship"/>
+                        <Profile src="../static/profiles/jacob.jpg" name="Jacob Haap" desc="Executive Director"/>
+                        <Profile src="../static/profiles/faham.png" name="Faham Tak" desc="Director of Marketing"/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="JP Mason" desc="Director of Hacker Experience"/>
+                        <Profile src="../static/profiles/harshith.jpg" name="Harshith Iyer" desc="Director of Finance & Sponsorship"/>
                     </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">

@@ -97,7 +97,7 @@ export default class Layout extends React.Component {
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
-                    background-image: url("https://files.slack.com/files-pri/T0266FRGM-FNHEDK43V/flat-design-fireworks.jpg");
+                    background-image: url("../static/back.jpg");
                     z-index:0;
                     background-position: center;
                     background-repeat: no-repeat;
@@ -129,7 +129,6 @@ export default class Layout extends React.Component {
                     text-align:center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
                 }
                 .title {
-                    font-family: 'Turret Road', cursive;
                     font-size:4em;
                     margin-bottom:10px;
                 }
