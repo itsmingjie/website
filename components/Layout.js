@@ -97,20 +97,17 @@ export default class Layout extends React.Component {
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
-                    background-image: url("../static/back.jpg");
+                    background-image: url("../static/blurry.png");
                     z-index:0;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+                    background-attachment: fixed;
                     height:100vh;
                     width:110vw;
                     position: absolute;
-                    filter: blur(1.5rem);
-                        -webkit-filter: blur(1.5rem);
-                        -moz-filter: blur(1.5rem);
-                        -o-filter: blur(1.5rem);
-                        -ms-filter: blur(1.5rem);
                     margin: 0vh -2vw -2vh -2vw;
+                  
                 }
                 .titleImage {
                     z-index:1;
