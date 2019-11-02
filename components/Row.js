@@ -12,7 +12,7 @@
                     .row {
                         flex-direction:column !important;
                         height: 70vh;
-                        margin-top:50px;
+                        margin-top:10vh;
                     }
                 }
                 
