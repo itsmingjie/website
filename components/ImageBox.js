@@ -8,7 +8,8 @@ const styles = {
         borderRadius: "20px",
         overflow: 'hidden',
         textAlign: "center",
-        margin: "10px"
+        margin: "10px",
+        boxShadow:"3px 3px 3px 3px"
     },
     image: {
         width: "100%",

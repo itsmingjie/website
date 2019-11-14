@@ -5,6 +5,7 @@ import ImageBox from "../components/ImageBox";
 import Profile from "../components/Profile";
 import SponsorCard from "../components/SponsorCard";
 import Button from "../components/Button";
+import Box from "../components/Box";
 
 export default class Index extends React.Component {
     render(){
@@ -15,8 +16,8 @@ export default class Index extends React.Component {
                     <div className="content">
                         <div style={{marginBottom:"5vh"}}>
                         <h1 className="title">Hack The New Year</h1>
-                        <h2 className="subtitle">The best hackathon in all of the world that </h2>
-                        <p>Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. </p>
+                        <h2 className="subtitle">Be The Future</h2>
+                        <p style={{fontSize:"1.5em"}}>January 11 - 12, 2020. Cincinnati, Ohio</p>
                         </div>
                         <Button href="https://airtable.com/shrKfMOUBfP7jaEAx" val="Register!"/>
                     </div>
@@ -27,22 +28,64 @@ export default class Index extends React.Component {
                 <div className="hero-norm" id="FAQ">
                     <Row>
                         <Column>
-                            <h1>What is a hackathon?</h1>
-                            <p>Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. </p>
+                            <h1>What is a hack-a-thon?</h1>
+                            <p style={{fontSize:"1.2em"}}>A hack-a-thon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
                         </Column>
                         <Column>
-                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="poop poop i like that"/>
+                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code!"/>
                         </Column>
                     </Row>
                     <Row>
                         <Column>
-                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="poop poop i like that"/>
+                            <ImageBox src="https://angelhacks.org/static/venue/stickexchange.jpg" desc="Sticker Exchange!"/>
                         </Column>
                         <Column>
-                            <h1>Why should you not come?</h1>
-                            <p>No reason. COME</p>
                         </Column>
                     </Row>
+                </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
+                    <Box>
+                        <div className="row">
+                            <div className="inner">
+                                <h2>Who can participate? 🔭</h2>
+                                <p>Any student in grades 8-12 can participate. If you are above or below that please <a href="mailto:team@hacknewyear.com">email us</a> and we can work something out.</p>
+                            </div>
+                            <div className="inner">
+                                <h2>What if I don't know how to code? 👾</h2>
+                                <p>Perfect! Hack the New Year is open to all experience levels, anywhere from beginners to master hackers (like our lord and savior Elon Musk).</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="inner">
+                                <h2>Do I need a team? 👨‍👧‍👧</h2>
+                                <p>Everyone will need to work on a team of 2 - 4 people, but there are no choosing teammates before the event. Everyone will be randomly assigned to one at the event.</p>
+                            </div>
+                            <div className="inner">
+                                <h2>How much does it cost? 💸</h2>
+                                <p>It is completely free to attend Hack the New Year thanks to our amazing sponsors! We got you covered.</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="inner">
+                                <h2>Who runs this? 👨‍🏫</h2>
+                                <p>Hack the New Year is ran by high school students across the Cincinnati area and Massachusetts, backed by an international non-profit organization called Hack Club, which creates communities of makers <a href="https://map.hackclub.com">all over the world.</a></p>
+                            </div>
+                            <div className="inner">
+                                <h2>Is this supervised? 👍</h2>
+                                <p>Yes, there will be background checked adults at the event the entire time.</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="inner">
+                                <h2>How do I get there? 🚗</h2>
+                                <p>The event is located at Union Hall, 1311 Vine Stree, Cincinnati, Ohio, 45202. We highly recommend that you have a parent dop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
+                            </div>
+                            <div className="inner">
+                                <h2>Is there a theme? 🤖</h2>
+                                <p>Our theme is futuristic as we move into the new year, and the start of the 2020s (the secret theme for cool kids is roaring 20s, but don't tell the other organizers about that).</p>
+                            </div>
+                        </div>
+                    </Box>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <h1>Our Sponsors</h1>
@@ -64,7 +107,7 @@ export default class Index extends React.Component {
                         <Profile src="../static/profiles/neel.jpg" name="Neel Redkar" desc="Web Developer"/>
                     </div>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">
+                {/* <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">
                     <h1>Judges</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
@@ -75,7 +118,7 @@ export default class Index extends React.Component {
                         <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
                         <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
                     </div>
-                </div>
+                </div> */}
             </Layout>
         )
     }

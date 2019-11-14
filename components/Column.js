@@ -9,6 +9,7 @@ function Column (props)  {
                     width:50vw;
                     display:flex;
                     flex-direction:column;
+                    text-align:center;
                 }
                 .container {
                     max-width:80%;

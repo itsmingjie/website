@@ -43,19 +43,6 @@ export default class Layout extends React.Component {
                     top:0;
                     overflow: hidden;
                 }
-                @media only screen and (max-width:918px) {
-                    .hidden-mobile {
-                        display:none;
-                    }
-                    .sidebar {
-                        width:317px !important;
-                    }
-                }
-                @media only screen and (max-width:479px) {
-                    .overlay {
-                        clip-path:none !important;
-                    }
-                }
                 .item {
                     margin:auto
                     height:100%;
@@ -95,6 +82,15 @@ export default class Layout extends React.Component {
                     width:100vw;
                     flex-direction:column !important;
                 }
+                .row {
+                    width:100%;
+                    display:flex;
+                    flex-direction:row;
+                }
+                .inner {
+                    width:50%;
+                    margin:20px;
+                }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
                     background-image: url("../static/blurry.png");
@@ -131,11 +127,36 @@ export default class Layout extends React.Component {
                 }
                 .subtitle {
                     margin-top:10px;
-                    font-size:1.3em;
+                    font-size:2em;
                 }
                 .hero p {
                     max-width:40vw;
                     margin:auto;
+                }
+                a {
+                    color:#009ece;
+                    font-weight:700;
+                }
+                @media only screen and (max-width:685px) {
+                    .row {
+                        flex-direction:column;
+                    }
+                    .inner {
+                        width:100%;
+                    }
+                }
+                @media only screen and (max-width:918px) {
+                    .hidden-mobile {
+                        display:none;
+                    }
+                    .sidebar {
+                        width:317px !important;
+                    }
+                }
+                @media only screen and (max-width:479px) {
+                    .overlay {
+                        clip-path:none !important;
+                    }
                 }
                 `}</style>
             </div>
