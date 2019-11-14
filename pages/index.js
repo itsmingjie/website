@@ -28,8 +28,8 @@ export default class Index extends React.Component {
                 <div className="hero-norm" id="FAQ">
                     <Row>
                         <Column>
-                            <h1>What is a hack-a-thon?</h1>
-                            <p style={{fontSize:"1.2em"}}>A hack-a-thon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
+                            <h1>What is a hackathon?</h1>
+                            <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
                         </Column>
                         <Column>
                             <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code!"/>
@@ -45,6 +45,7 @@ export default class Index extends React.Component {
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <Box>
+                        <h1 style={{margin:"15px",fontSize:"2.3em",textAlign:"center"}}>Frequently Asked Questions</h1>
                         <div className="row">
                             <div className="inner">
                                 <h2>Who can participate? 🔭</h2>
@@ -101,6 +102,7 @@ export default class Index extends React.Component {
                         <Profile src="../static/profiles/faham.png" name="Faham Tak" desc="Director of Marketing"/>
                         <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="JP Mason" desc="Director of Hacker Experience"/>
                         <Profile src="../static/profiles/harshith.jpg" name="Harshith Iyer" desc="Director of Finance & Sponsorship"/>
+                        <Profile src="../static/profiles/garret.jpg" name="Garret Thompson" desc="Director of Social Media"/>
                     </div>
                     <h1>Additional Help From</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>

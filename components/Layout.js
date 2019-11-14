@@ -142,7 +142,7 @@ export default class Layout extends React.Component {
                         flex-direction:column;
                     }
                     .inner {
-                        width:100%;
+                        width:80%;
                     }
                 }
                 @media only screen and (max-width:918px) {
