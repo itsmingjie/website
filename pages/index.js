@@ -102,7 +102,6 @@ export default class Index extends React.Component {
                         <Profile src="../static/profiles/faham.png" name="Faham Tak" desc="Director of Marketing"/>
                         <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="JP Mason" desc="Director of Hacker Experience"/>
                         <Profile src="../static/profiles/harshith.jpg" name="Harshith Iyer" desc="Director of Finance & Sponsorship"/>
-                        <Profile src="../static/profiles/garret.jpg" name="Garret Thompson" desc="Director of Social Media"/>
                     </div>
                     <h1>Additional Help From</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
