@@ -18,7 +18,7 @@ export default class Index extends React.Component {
                         <h1 className="title">Hack The New Year</h1>
                         <h2 className="subtitle">Be The Future</h2>
                         <p style={{fontSize:"1.5em"}}>January 11 - 12, 2020</p>
-                        <p style={{marginTop:"10px"}}>Union Hall, 1311 Vine Stree, Cincinnati, Ohio</p>
+                        <p style={{marginTop:"10px"}}>Union Hall, 1311 Vine Street, Cincinnati, Ohio</p>
                         </div>
                         <Button href="https://airtable.com/shrKfMOUBfP7jaEAx" val="Register!"/>
                     </div>
@@ -80,7 +80,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>How do I get there? 🚗</h2>
-                                <p>The event is located at Union Hall, 1311 Vine Stree, Cincinnati, Ohio, 45202. We highly recommend that you have a parent dop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
+                                <p>The event is located at Union Hall, 1311 Vine Street, Cincinnati, Ohio, 45202. We highly recommend that you have a parent dop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
                             </div>
                             <div className="inner">
                                 <h2>Is there a theme? 🤖</h2>
