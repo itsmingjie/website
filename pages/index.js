@@ -107,6 +107,7 @@ export default class Index extends React.Component {
                     <h1>Additional Help From</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="../static/profiles/neel.jpg" name="Neel Redkar" desc="Web Developer"/>
+                        <Profile src="../static/profiles/garret.jpg" name="Garret Thompson" desc="Social Media Manager"/>
                     </div>
                 </div>
                 {/* <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">
