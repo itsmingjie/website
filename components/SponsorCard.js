@@ -2,7 +2,7 @@
 
 export default function SponsorCard (props) {
     return(
-        <div>
+        <a href={props.href}>
             <img src={props.src}/>
             <style jsx>{`
             img {
@@ -10,6 +10,6 @@ export default function SponsorCard (props) {
                 margin:10px;
             }
             `}</style>
-        </div>
+        </a>
     )
 }

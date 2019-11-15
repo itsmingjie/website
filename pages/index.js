@@ -91,8 +91,8 @@ export default class Index extends React.Component {
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
                     <h1>Our Sponsors</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
-                        <SponsorCard src="../static/sponsor/balsamiq-logo.svg"/>
-                        <SponsorCard src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
+                        <SponsorCard href="https://balsamiq.com" src="../static/sponsor/balsamiq-logo.svg"/>
+                        <SponsorCard href="https://hackclub.com" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
                     </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
