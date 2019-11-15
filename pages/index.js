@@ -17,7 +17,8 @@ export default class Index extends React.Component {
                         <div style={{marginBottom:"5vh"}}>
                         <h1 className="title">Hack The New Year</h1>
                         <h2 className="subtitle">Be The Future</h2>
-                        <p style={{fontSize:"1.5em"}}>January 11 - 12, 2020. Cincinnati, Ohio</p>
+                        <p style={{fontSize:"1.5em"}}>January 11 - 12, 2020</p>
+                        <p style={{marginTop:"10px"}}>Union Hall, 1311 Vine Stree, Cincinnati, Ohio</p>
                         </div>
                         <Button href="https://airtable.com/shrKfMOUBfP7jaEAx" val="Register!"/>
                     </div>
@@ -32,18 +33,18 @@ export default class Index extends React.Component {
                             <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
                         </Column>
                         <Column>
-                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code!"/>
+                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code! (Hack Penn)"/>
                         </Column>
                     </Row>
                     <Row>
                         <Column>
-                            <ImageBox src="https://angelhacks.org/static/venue/stickexchange.jpg" desc="Sticker Exchange!"/>
+                            <ImageBox src="https://angelhacks.org/static/venue/stickexchange.jpg" desc="Sticker Exchange! (Flagship Summit)"/>
                         </Column>
                         <Column>
                         </Column>
                     </Row>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
+                <div id="faq" style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
                     <Box>
                         <h1 style={{margin:"15px",fontSize:"2.3em",textAlign:"center"}}>Frequently Asked Questions</h1>
                         <div className="row">
@@ -88,7 +89,7 @@ export default class Index extends React.Component {
                         </div>
                     </Box>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="sponsors">
                     <h1>Our Sponsors</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <SponsorCard href="https://balsamiq.com" src="../static/sponsor/balsamiq-logo.svg"/>

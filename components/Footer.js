@@ -3,15 +3,12 @@ function Footer () {
     return(
         <div className="footer">
             <div className="container">
-                <a href="https://github.com/hacker719/htny" className="click">Look behind the scenes!</a>
+                <a href="https://github.com/hack-the-new-year/website" className="click">Look behind the scenes!</a>
                 <div className="holder">
-                    <a href="mailto:wowthisisanemail@email.xom" className="icon">
+                    <a href="team@hacknewyear.com" className="icon">
                         <FaRegEnvelope />
                     </a>
-                    <a href="https://instagram.com" className="icon">
-                        <FaInstagram />
-                    </a>
-                    <a href="https://github.com/htny" className="icon">
+                    <a href="https://github.com/hack-the-new-year" className="icon">
                         <FaGithub />
                     </a>
                 </div>
