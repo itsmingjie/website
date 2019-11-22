@@ -94,6 +94,11 @@ export default class Index extends React.Component {
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <SponsorCard href="https://balsamiq.com" src="../static/sponsor/balsamiq-logo.svg"/>
                         <SponsorCard href="https://hackclub.com" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
+                        <SponsorCard href="https://www.sketch.com" src="../static/sponsor/sketch-logo.png"/>
+                    </div>
+                    <div style={{textAlign:"center"}}>
+                        <h1>Become a Sponsor!</h1>
+                        <p>Contact us at <a href="mailto:team@hacknewyear.com">our email</a> and take <a href="../static/Prospectus.pdf">a look at prospectus</a>!</p>
                     </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">

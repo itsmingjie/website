@@ -68,6 +68,9 @@ export default class Layout extends React.Component {
                 a {
                     text-decoration:none;
                 }
+                a:hover {
+                    text-decoration:underline;
+                }
                 .hero {
                     top:0;
                     position: relative;
