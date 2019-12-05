@@ -8,6 +8,7 @@ export default function SponsorCard (props) {
             img {
                 height:10vh;
                 margin:10px;
+                border-radius:15px;
             }
             `}</style>
         </a>

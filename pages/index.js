@@ -91,10 +91,26 @@ export default class Index extends React.Component {
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="sponsors">
                     <h1>Our Sponsors</h1>
+                    <h2>Silver</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <SponsorCard href="https://balsamiq.com" src="../static/sponsor/balsamiq-logo.svg"/>
+                        <SponsorCard href="https://kroger.com" src="https://www.wonderlab.org/wp-content/uploads/2016/01/kroger-logo.png"/>
+                    </div>
+                    <h2>Bronze</h2>
+                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                        <SponsorCard src="../static/sponsor/github.png" href="https://github.com"/>
+                        <SponsorCard src="../static/sponsor/haap.png"/>
+                    </div>
+                    <h2>Additional Support</h2>
+                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                        <SponsorCard href="https://cengage.com" src="../static/sponsor/cengage.png"/>
                         <SponsorCard href="https://hackclub.com" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
                         <SponsorCard href="https://www.sketch.com" src="../static/sponsor/sketch-logo.png"/>
+                        <SponsorCard src="https://healthcollab.org/wp-content/uploads/cintrifuse-logo.png" href="https://cintrifuse.com" />
+                        <SponsorCard src="https://camo.githubusercontent.com/4fc2fd1938e263da0a9d31e4e31572f4536b2c21/68747470733a2f2f636c6f756473706c6f69742e636f6d2f696d616765732f6c6f676f732f746578742d636f6c6f722d626c61636b2d706e672e706e67" href="https://cloudsploit.io"/>
+                        <SponsorCard src="../static/sponsor/digitalocean.png" href="https://digitalocean.com" />
+                        <SponsorCard src="https://angelhacks.org/static/sashido-logo.png" href="https://sashido.com"/>
+                        <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" />
                     </div>
                     <div style={{textAlign:"center"}}>
                         <h1>Become a Sponsor!</h1>
