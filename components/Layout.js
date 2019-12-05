@@ -57,6 +57,10 @@ export default class Layout extends React.Component {
                     background-color:#3e2675;
                     cursor:pointer;
                 }
+                .item p {
+                    color:white;
+                    margin:auto
+                }
                 .item a {
                     color:white;
                     margin:auto
