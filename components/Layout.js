@@ -9,6 +9,7 @@ export default class Layout extends React.Component {
                     <title>Hack The New Year</title>
                     <link rel="icon" href="../static/htny-logo.png"/>
                     <meta name="google-site-verification" content="3fDbFUZsZdQv6p0RFyQyHePBXThFOm0SfRPxUXK8YAs" />
+                    <meta name="keywords" content="Hack,New Year,Hack the New Year,hackathon"></meta>
                     <meta name="title" content="Hack the New Year" />
                     <meta name="description" content="Be The Future"/>
                 </Head>
