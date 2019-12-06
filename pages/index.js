@@ -95,6 +95,7 @@ export default class Index extends React.Component {
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <SponsorCard href="https://balsamiq.com" src="../static/sponsor/balsamiq-logo.svg"/>
                         <SponsorCard href="https://kroger.com" src="https://www.wonderlab.org/wp-content/uploads/2016/01/kroger-logo.png"/>
+                        <SponsorCard href="https://www.losant.com" src="../static/sponsor/losant-logo-horiz-01-04.png"/>
                     </div>
                     <h2>Bronze</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
