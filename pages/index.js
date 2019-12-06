@@ -80,7 +80,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>How do I get there? 🚗</h2>
-                                <p>The event is located at Union Hall, 1311 Vine Street, Cincinnati, Ohio, 45202. We highly recommend that you have a parent dop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
+                                <p>The event is located at Union Hall, 1311 Vine Street, Cincinnati, Ohio, 45202. We highly recommend that you have a parent drop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
                             </div>
                             <div className="inner">
                                 <h2>Is there a theme? 🤖</h2>
@@ -128,7 +128,7 @@ export default class Index extends React.Component {
                     <h1>Additional Help From</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="../static/profiles/neel.jpg" name="Neel Redkar" desc="Web Developer"/>
-                        <Profile src="../static/profiles/garret.jpg" name="Garret Thompson" desc="Social Media Manager"/>
+                        <Profile src="../static/profiles/garret.jpg" name="Garrett Thompson" desc="Social Media Manager"/>
                     </div>
                 </div>
                 {/* <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">
