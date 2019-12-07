@@ -15,7 +15,9 @@ export default class Navbar extends React.Component {
                     <a href="#team" className="item">
                         <p>Team</p>
                     </a>
-                    <a href="https://hackclub.com/" target="_blank" style={{ float: "right" }}><img src="../static/hackclub-banner.svg"></a>
+                    <div className="item" style={{ display: "flex"}}>
+                        <a href="https://hackclub.com/" target="_blank" style={{ float: "right" }}><img src="../static/hackclub-banner.svg"></a>
+                    </div>
                 </div>
             </div>
         )
