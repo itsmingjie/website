@@ -54,7 +54,7 @@ export default class Index extends React.Component {
                             </div>
                             <div className="inner">
                                 <h2>What if I don't know how to code? 👾</h2>
-                                <p>Perfect! Hack the New Year is open to all experience levels, anywhere from beginners to master hackers (like our lord and savior Elon Musk).</p>
+                                <p>Perfect! Hack the New Year is open to all experience levels, anywhere from beginners to master hackers.</p>
                             </div>
                         </div>
                         <div className="row">
@@ -84,7 +84,27 @@ export default class Index extends React.Component {
                             </div>
                             <div className="inner">
                                 <h2>Is there a theme? 🤖</h2>
-                                <p>Our theme is futuristic as we move into the new year, and the start of the 2020s (the secret theme for cool kids is roaring 20s, but don't tell the other organizers about that).</p>
+                                <p>We don't have one! Feel free to make whatever want! Start the year right and make something you'll be proud of.</p>
+                            </div>
+                        </div>
+                         <div className="row">
+                            <div className = "inner">
+                               <h2>I'm a college student/professional and I want to mentor at this hackathon. 📚</h2>
+                               <p>Of course! Contact us at team@hacknewyear.com and we'll see what we can do!</p>
+                            </div>
+                            <div className = "inner">
+                               <h2>I want to sponsor this event. 💸</h2>
+                               <p>We can never have enough sponsors to make this event a success! Contact us at team@hacknewyear.com with details and we'll get back to you ASAP.</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className = "inner">
+                               <h2>What do I need to bring? 🎒</h2>
+                               <p>Be sure to bring your computer, phone, chargers, and anything else you might need for your project. You will also need to bring a form of ID (student IDs work great). Also, be sure to bring toiletries, a refillable water bottle, any medication you may need, and a sleeping bag if you plan to sleep.</p>
+                            </div>
+                            <div className = "inner">
+                               <h2>What if I have another question? ❓</h2>
+                               <p>Feel free to contact us at team@hacknewyear.com with any questions you may have. We'd be more than happy to answer them!</p>
                             </div>
                         </div>
                     </Box>
