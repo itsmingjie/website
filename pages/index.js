@@ -90,21 +90,17 @@ export default class Index extends React.Component {
                          <div className="row">
                             <div className = "inner">
                                <h2>I'm a college student/professional and I want to mentor at this hackathon. 📚</h2>
-                               <p>Of course! Contact us at team@hacknewyear.com and we'll see what we can do!</p>
+                               <p>Of course! Contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a> and we'll see what we can do!</p>
                             </div>
-                            <div className = "inner">
-                               <h2>I want to sponsor this event. 💸</h2>
-                               <p>We can never have enough sponsors to make this event a success! Contact us at team@hacknewyear.com with details and we'll get back to you ASAP.</p>
-                            </div>
-                        </div>
-                        <div className="row">
                             <div className = "inner">
                                <h2>What do I need to bring? 🎒</h2>
                                <p>Be sure to bring your computer, phone, chargers, and anything else you might need for your project. You will also need to bring a form of ID (student IDs work great). Also, be sure to bring toiletries, a refillable water bottle, any medication you may need, and a sleeping bag if you plan to sleep.</p>
                             </div>
+                        </div>
+                        <div className="row">
                             <div className = "inner">
                                <h2>What if I have another question? ❓</h2>
-                               <p>Feel free to contact us at team@hacknewyear.com with any questions you may have. We'd be more than happy to answer them!</p>
+                               <p>Feel free to contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a> with any questions you may have. We'd be more than happy to answer them!</p>
                             </div>
                         </div>
                     </Box>
@@ -133,8 +129,8 @@ export default class Index extends React.Component {
                         <SponsorCard src="https://angelhacks.org/static/sashido-logo.png" href="https://www.sashido.io/en/" target="_blank"/>
                         <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
                     </div>
-                    <div style={{textAlign:"center"}}>
-                        <h1>Become a Sponsor!</h1>
+                    <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
+                        <h1 style={{fontSize:"2.7em",}}>Become a Sponsor!</h1>
                         <p>Contact us at <a href="mailto:team@hacknewyear.com">our email</a> and take <a href="../static/Prospectus.pdf">a look at prospectus</a>!</p>
                     </div>
                 </div>
