@@ -30,7 +30,7 @@ export default class Index extends React.Component {
                     <Row>
                         <Column>
                             <h1>What is a hackathon?</h1>
-                            <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
+                            <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to hack (hack is a way to say make cool fun things) and meet new people! You can build anything you want in 24 hours, with free food, drinks, and places to sleep.</p>
                         </Column>
                         <Column>
                             <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code! (Hack Penn)"/>
@@ -60,7 +60,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>Do I need a team? 👨‍👧‍👧</h2>
-                                <p>Everyone will need to work on a team of 2 - 4 people, but there are no choosing teammates before the event. Everyone will be randomly assigned to one at the event.</p>
+                                <p>Everyone will need to work on a team of 2-4 people, but there are no choosing teammates before the event. Everyone will be randomly assigned to one at the event.</p>
                             </div>
                             <div className="inner">
                                 <h2>How much does it cost? 💸</h2>
@@ -70,7 +70,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>Who runs this? 👨‍🏫</h2>
-                                <p>Hack the New Year is ran by high school students across the Cincinnati area and Massachusetts, backed by an international non-profit organization called Hack Club, which creates communities of makers <a href="https://map.hackclub.com">all over the world.</a></p>
+                                <p>Hack the New Year is run by high school students across the Cincinnati area and Massachusetts, backed by an international non-profit organization called Hack Club, which creates communities of makers <a href="https://map.hackclub.com">all over the world.</a></p>
                             </div>
                             <div className="inner">
                                 <h2>Is this supervised? 👍</h2>
@@ -90,7 +90,7 @@ export default class Index extends React.Component {
                          <div className="row">
                             <div className = "inner">
                                <h2>I'm a college student/professional and I want to mentor at this hackathon. 📚</h2>
-                               <p>Of course! Contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a> and we'll see what we can do!</p>
+                               <p>Of course! Contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a>, and we'll see what we can do!</p>
                             </div>
                             <div className = "inner">
                                <h2>What do I need to bring? 🎒</h2>
