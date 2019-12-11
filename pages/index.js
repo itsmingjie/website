@@ -120,15 +120,15 @@ export default class Index extends React.Component {
                     </div>
                     <h2>Additional Support</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
-                        <SponsorCard href="https://cengage.com" target="_blank" src="../static/sponsor/cengage.png"/>
                         <SponsorCard href="https://hackclub.com" target="_blank" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
-                        <SponsorCard href="https://www.sketch.com" target="_blank" src="../static/sponsor/sketch-logo.png"/>
+                        <SponsorCard href="https://cengage.com" target="_blank" src="../static/sponsor/cengage.png"/>
                         <SponsorCard src="https://healthcollab.org/wp-content/uploads/cintrifuse-logo.png" href="https://cintrifuse.com" target="_blank" />
                         <SponsorCard src="https://camo.githubusercontent.com/4fc2fd1938e263da0a9d31e4e31572f4536b2c21/68747470733a2f2f636c6f756473706c6f69742e636f6d2f696d616765732f6c6f676f732f746578742d636f6c6f722d626c61636b2d706e672e706e67" href="https://cloudsploit.com/" target="_blank"/>
                         <SponsorCard src="../static/sponsor/digitalocean.png" href="https://digitalocean.com" target="_blank" />
                         <SponsorCard src="https://angelhacks.org/static/sashido-logo.png" href="https://www.sashido.io/en/" target="_blank"/>
-                        <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
+                        <SponsorCard href="https://www.sketch.com" target="_blank" src="../static/sponsor/sketch-logo.png"/>
                         <SponsorCard src="../static/sponsor/Sticker-mule-logo-light.png" href="https://stickermule.com" target="_blank" />
+                        <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
                     </div>
                     <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
                         <h1 style={{fontSize:"2.7em",}}>Become a Sponsor!</h1>
