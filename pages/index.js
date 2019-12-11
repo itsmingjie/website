@@ -128,6 +128,7 @@ export default class Index extends React.Component {
                         <SponsorCard src="../static/sponsor/digitalocean.png" href="https://digitalocean.com" target="_blank" />
                         <SponsorCard src="https://angelhacks.org/static/sashido-logo.png" href="https://www.sashido.io/en/" target="_blank"/>
                         <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
+                        <SponsorCard src="../static/sponsor/Sticker-mule-logo-light.png" href="https://stickermule.com" target="_blank" />
                     </div>
                     <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
                         <h1 style={{fontSize:"2.7em",}}>Become a Sponsor!</h1>
