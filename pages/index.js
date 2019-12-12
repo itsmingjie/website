@@ -105,6 +105,15 @@ export default class Index extends React.Component {
                         </div>
                     </Box>
                 </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
+                    <h1>Our Venue</h1>
+                    <row>
+                        <ImageBox src="../static/venue1.jpg">
+                        <ImageBox src="../static/venue2.jpg">
+                        <ImageBox src="../static/venue3.jpg">
+                        <ImageBox src="../static/venue4.jpg">
+                    </row>
+                </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="sponsors">
                     <h1>Our Sponsors</h1>
                     <h2>Silver</h2>
