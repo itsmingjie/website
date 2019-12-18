@@ -60,7 +60,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>Do I need a team? 👨‍👧‍👧</h2>
-                                <p>Everyone will need to work on a team of 2 - 4 people, but there are no choosing teammates before the event. Everyone will be randomly assigned to one at the event.</p>
+                                <p>Everyone will need to work on a team of 2 - 4 people, but there are no choosing teammates before the event. You can bring your friends to form a group of up to 4 people, or come alone and find a group here!</p>
                             </div>
                             <div className="inner">
                                 <h2>How much does it cost? 💸</h2>
