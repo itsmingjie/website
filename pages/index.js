@@ -30,7 +30,7 @@ export default class Index extends React.Component {
                     <Row>
                         <Column>
                             <h1>What is a hackathon?</h1>
-                            <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to come together and hack (hack is a way to say make cool fun things)! You can build anything you want in 24 hours, with free food, drinks, and other forms of human sustenance</p>
+                            <p style={{fontSize:"1.2em"}}>A hackathon is a place where people come together to hack (hack is a way to say make cool fun things) and meet new people! You can build anything you want in 24 hours, with free food, drinks, and places to sleep.</p>
                         </Column>
                         <Column>
                             <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="Students gather into teams and learn to code! (Hack Penn)"/>
@@ -70,7 +70,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>Who runs this? 👨‍🏫</h2>
-                                <p>Hack the New Year is ran by high school students across the Cincinnati area and Massachusetts, backed by an international non-profit organization called Hack Club, which creates communities of makers <a href="https://map.hackclub.com">all over the world.</a></p>
+                                <p>Hack the New Year is run by high school students across the Cincinnati area and Massachusetts, backed by an international non-profit organization called Hack Club, which creates communities of makers <a href="https://map.hackclub.com">all over the world.</a></p>
                             </div>
                             <div className="inner">
                                 <h2>Is this supervised? 👍</h2>
@@ -90,7 +90,7 @@ export default class Index extends React.Component {
                          <div className="row">
                             <div className = "inner">
                                <h2>I'm a college student/professional and I want to mentor at this hackathon. 📚</h2>
-                               <p>Of course! Contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a> and we'll see what we can do!</p>
+                               <p>Of course! Contact us at <a href="mailto:team@hacknewyear.com">team@hacknewyear.com</a>, and we'll see what we can do!</p>
                             </div>
                             <div className = "inner">
                                <h2>What do I need to bring? 🎒</h2>
@@ -104,6 +104,15 @@ export default class Index extends React.Component {
                             </div>
                         </div>
                     </Box>
+                </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
+                    <h1>Our Venue</h1>
+                    <div className="row">
+                        <ImageBox src="../static/venue1.jpg" desc="Front side of our venue!"/>
+                        <ImageBox src="../static/venue2.jpg" desc="The beautiful kitchen!"/>
+                        <ImageBox src="../static/venue3.jpg" desc="Ebic seats that you can hack on!"/>
+                        <ImageBox src="../static/venue4.jpg" desc="Another awesome kitchen!"/>
+                    </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="sponsors">
                     <h1>Our Sponsors</h1>
@@ -120,13 +129,14 @@ export default class Index extends React.Component {
                     </div>
                     <h2>Additional Support</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
-                        <SponsorCard href="https://cengage.com" target="_blank" src="../static/sponsor/cengage.png"/>
                         <SponsorCard href="https://hackclub.com" target="_blank" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
-                        <SponsorCard href="https://www.sketch.com" target="_blank" src="../static/sponsor/sketch-logo.png"/>
+                        <SponsorCard href="https://cengage.com" target="_blank" src="../static/sponsor/cengage.png"/>
                         <SponsorCard src="https://healthcollab.org/wp-content/uploads/cintrifuse-logo.png" href="https://cintrifuse.com" target="_blank" />
                         <SponsorCard src="https://camo.githubusercontent.com/4fc2fd1938e263da0a9d31e4e31572f4536b2c21/68747470733a2f2f636c6f756473706c6f69742e636f6d2f696d616765732f6c6f676f732f746578742d636f6c6f722d626c61636b2d706e672e706e67" href="https://cloudsploit.com/" target="_blank"/>
                         <SponsorCard src="../static/sponsor/digitalocean.png" href="https://digitalocean.com" target="_blank" />
                         <SponsorCard src="https://angelhacks.org/static/sashido-logo.png" href="https://www.sashido.io/en/" target="_blank"/>
+                        <SponsorCard href="https://www.sketch.com" target="_blank" src="../static/sponsor/sketch-logo.png"/>
+                        <SponsorCard src="../static/sponsor/Sticker-mule-logo-light.png" href="https://stickermule.com" target="_blank" />
                         <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
                     </div>
                     <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
