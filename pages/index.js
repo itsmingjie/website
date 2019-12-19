@@ -50,7 +50,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>Who can participate? 🔭</h2>
-                                <p>Any student in grades 8-12 can participate. If you are above or below that please <a href="mailto:team@hacknewyear.com">email us</a> and we can work something out.</p>
+                                <p>Any student in middle school - 12th grade can participate. If you are above or below that please <a href="mailto:team@hacknewyear.com">email us</a> and we can work something out.</p>
                             </div>
                             <div className="inner">
                                 <h2>What if I don't know how to code? 👾</h2>
@@ -94,7 +94,7 @@ export default class Index extends React.Component {
                             </div>
                             <div className = "inner">
                                <h2>What do I need to bring? 🎒</h2>
-                               <p>Be sure to bring your computer, phone, chargers, and anything else you might need for your project. You will also need to bring a form of ID (student IDs work great). Also, be sure to bring toiletries, a refillable water bottle, any medication you may need, and a sleeping bag if you plan to sleep.</p>
+                               <p>Be sure to bring your computer, phone, chargers, and anything else you might need for your project. You will also need to bring a form of ID (student IDs work great). Also, be sure to bring toiletries, a refillable water bottle, any medication you may need, and a sleeping bag if you plan to sleep. Middle School students must have a parent present on drop off and pick up.</p>
                             </div>
                         </div>
                         <div className="row">
