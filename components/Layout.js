@@ -20,6 +20,9 @@ export default class Layout extends React.Component {
                 <Footer id="footer"/>
                 <style jsx global>{`
                 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+                body ::-webkit-scrollbar {
+                    display: none;
+                  }
                 html,body {
                     font-family: 'Ubuntu', sans-serif;
                     min-height:100%;
@@ -42,9 +45,6 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                     height:60px;
                     display:flex;
                     flex-direction:row;
-                    -moz-box-shadow:    3px 3px 5px 6px ;
-                    -webkit-box-shadow: 3px 3px 5px 6px ;
-                    box-shadow:         3px 3px 5px 6px ;
                     z-index:2;
                     position: fixed;
                     top:0;
