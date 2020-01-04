@@ -44,8 +44,8 @@ export default class Index extends React.Component {
                         </Column>
                     </Row>
                 </div>
-                <div id="faq" style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
-                    <Box>
+                <div id="faq" style={{color:"white",display:"flex"}}>
+                    <Box width="90vw">
                         <h1 style={{margin:"15px",fontSize:"2.3em",textAlign:"center"}}>Frequently Asked Questions</h1>
                         <div className="row">
                             <div className="inner">
@@ -105,16 +105,46 @@ export default class Index extends React.Component {
                         </div>
                     </Box>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"90vw",textAlign:"center"}}>
+                <div style={{color:"white",marginTop:"5vh"}}>
+                    <Box width="50vw">
+                        <h1 style={{fontSize:"2.3em",textAlign:"center"}}>Schedule!</h1>
+                        <div className="row">
+                            <div style={{display:"flex",flexDirection:"column",flex:1,textAlign:"center"}}>
+                                    <h2>Saturday Jan 11</h2>
+                                    <p><strong>9:00 AM</strong> Doors Open 🚪</p>
+                                    <p><strong>10:00 AM</strong> Opening Ceremoney & Icebreaker 📹</p>
+                                    <p><strong>11>:00 AM</strong> Hacking Begins 💻</p>
+                                    <p><strong>12:00 PM</strong> Lunch 🍎</p>
+                                    <p><strong>6:30 PM</strong> Dinner 🌮</p>
+                                    <p><strong>7:30 PM</strong> CTF Starts 👩‍💻</p>
+                                    <p><strong>9:00 PM</strong> CTF Ends 👨‍💻</p>
+                            </div>
+                            <div style={{display:"flex",flexDirection:"column",flex:1,textAlign:"center"}}>
+                                <h2>Sunday Jan 12</h2>
+                                <p><strong>12:00 AM</strong> Midnight Snack 🍩</p>
+                                <p><strong>1:00 AM</strong> Minecraft Survival Games ⚔️</p>
+                                <p><strong>9:00 AM</strong> Breakfast 🥞</p>
+                                <p><strong>7:00 AM</strong> Hacking Ends 😥</p>
+                                <p><strong>9:45 AM</strong> Presentations Begin 🎥</p>
+                                <p><strong>11:00 AM</strong> Presentations End/Judging Begins ⚖️</p>
+                                <p><strong>11:15 AM</strong> Closing Ceremony 🎈</p>
+                                <p><strong>12:00 PM</strong> Event Ends 😭</p>
+                            </div>
+                        </div>
+                    </Box>
+                </div>
+                <div style={{color:"white",textAlign:"center"}}>
                     <h1>Our Venue</h1>
                     <div className="row">
                         <div style={{padding:"15px",marginLeft:"auto",marginRight:"auto",color:"white",overflow:"hidden"}} className="mapouter"><div className="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Union%20Hall%2C%201311%20Vine%20Street%2C%20Cincinnati%2C%20Ohio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style jsx>{`.mapouter{position:relative;text-align:right;height:500px;width:500px;border-radius:30px;}.gmap_canvas {border-radius:30px;overflow:hidden;background:none!important;height:500px;width:500px;}`}</style></div>
                     </div>
-                    <div className="row">
-                        <ImageBox src="../static/venue1.jpg" desc="Front side of our venue!"/>
-                        <ImageBox src="../static/venue2.jpg" desc="The beautiful kitchen!"/>
-                        <ImageBox src="../static/venue3.jpg" desc="Ebic seats that you can hack on!"/>
-                        <ImageBox src="../static/venue4.jpg" desc="Another awesome kitchen!"/>
+                    <div className="row" style={{flexWrap:"wrap"}}>
+                        <div className="row" style={{flexWrap:"wrap",width:"70vw", marginLeft:"auto",marginRight:"auto"}}>
+                            <ImageBox src="../static/venue1.jpg" desc="Front side of our venue!"/>
+                            <ImageBox src="../static/venue2.jpg" desc="The beautiful kitchen!"/>
+                            <ImageBox src="../static/venue3.jpg" desc="Ebic seats that you can hack on!"/>
+                            <ImageBox src="../static/venue4.jpg" desc="Another awesome kitchen!"/>
+                        </div>
                     </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="sponsors">
@@ -132,7 +162,7 @@ export default class Index extends React.Component {
                         <SponsorCard src="../static/sponsor/haap.png"/>
                     </div>
                     <h2>Additional Support</h2>
-                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                    <div className="row" style={{flexWrap:"wrap"}}>
                         <SponsorCard href="https://hackclub.com" target="_blank" src="https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206"/>
                         <SponsorCard href="https://cengage.com" target="_blank" src="../static/sponsor/cengage.png"/>
                         <SponsorCard src="https://healthcollab.org/wp-content/uploads/cintrifuse-logo.png" href="https://cintrifuse.com" target="_blank" />
@@ -143,7 +173,7 @@ export default class Index extends React.Component {
                         <SponsorCard src="../static/sponsor/Sticker-mule-logo-light.png" href="https://stickermule.com" target="_blank" />
                         <SponsorCard src="../static/sponsor/tile.png" href="https://tile.com" target="_blank" />
                     </div>
-                    <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
+                    <div style={{textAlign:"center"}}>
                         <h1 style={{fontSize:"2.7em",}}>Become a Sponsor!</h1>
                         <p>Contact us at <a href="mailto:team@hacknewyear.com">our email</a> and take <a href="../static/Prospectus.pdf">a look at our prospectus</a>!</p>
                     </div>

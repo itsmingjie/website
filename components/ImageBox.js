@@ -18,7 +18,7 @@ const styles = {
 
 const ImageBox = (props) => {
     return (
-        <div style={{display:"block"}}>
+        <div style={{display:"block",margin:"auto"}}>
             <div style={styles.container} className="cardContainer">
                 <img src={props.src} style={styles.image} className="cardImage" />
                 <div className="textCont">
