@@ -17,8 +17,8 @@ export default class Index extends React.Component {
                         <div style={{marginBottom:"5vh"}}>
                         <h1 className="title">Hack The New Year</h1>
                         <h2 className="subtitle">Be The Future</h2>
-                        <p style={{fontSize:"1.5em"}}>January 11 - 12, 2020</p>
-                        <p style={{marginTop:"10px"}}>Union Hall, 1311 Vine Street, Cincinnati, Ohio</p>
+                        <p style={{fontSize:"1.5em",marginBottom:"10px"}}>January 11 - 12, 2020</p>
+                        <a href="https://g.page/unionhallcincy?share" style={{ color:"white"}}>Union Hall, 1311 Vine Street, Cincinnati, Ohio</a>
                         </div>
                         <Button href="https://airtable.com/shrKfMOUBfP7jaEAx" val="Register!"/>
                     </div>
@@ -141,7 +141,7 @@ export default class Index extends React.Component {
                     </div>
                     <div style={{textAlign:"center",marginTop:"100px",marginBottom:"100px"}}>
                         <h1 style={{fontSize:"2.7em",}}>Become a Sponsor!</h1>
-                        <p>Contact us at <a href="mailto:team@hacknewyear.com">our email</a> and take <a href="../static/Prospectus.pdf">a look at prospectus</a>!</p>
+                        <p>Contact us at <a href="mailto:team@hacknewyear.com">our email</a> and take <a href="../static/Prospectus.pdf">a look at our prospectus</a>!</p>
                     </div>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="team">
