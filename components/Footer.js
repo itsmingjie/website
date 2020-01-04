@@ -1,4 +1,4 @@
-import { FaRegEnvelope, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaRegEnvelope, FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
 function Footer () {
     return(
         <div className="footer">
@@ -10,6 +10,12 @@ function Footer () {
                     </a>
                     <a href="https://github.com/hack-the-new-year" className="icon">
                         <FaGithub />
+                    </a>
+                    <a href="https://www.instagram.com/hacknewyear/" className="icon">
+                        <FaInstagram/>
+                    </a>
+                    <a href="https://twitter.com/HackTheNewYear" className="icon">
+                        <FaTwitter/>
                     </a>
                 </div>
                 <p>MIT License</p>

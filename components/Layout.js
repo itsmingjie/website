@@ -24,6 +24,7 @@ export default class Layout extends React.Component {
                     display: none;
                   }
                 html,body {
+                    overflow-x: hidden;
                     font-family: 'Ubuntu', sans-serif;
                     min-height:100%;
                     width:100%;

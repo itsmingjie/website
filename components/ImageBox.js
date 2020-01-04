@@ -8,8 +8,7 @@ const styles = {
         borderRadius: "20px",
         overflow: 'hidden',
         textAlign: "center",
-        margin: "10px",
-        boxShadow:"3px 3px 3px 3px"
+        margin: "10px"
     },
     image: {
         width: "100%",
@@ -19,19 +18,21 @@ const styles = {
 
 const ImageBox = (props) => {
     return (
-        <div style={styles.container} className="cardContainer">
-            <img src={props.src} style={styles.image} className="cardImage" />
-            <div className="textCont">
-                <p style={{ margin: "10px" }}>{props.desc}</p>
-            </div>
-            <style jsx>{`
-                @media only screen and (max-width:685px) {
-                    .cardContainer {
-                        width:75vw !important;
-                        position: relative;
+        <div style={{display:"block"}}>
+            <div style={styles.container} className="cardContainer">
+                <img src={props.src} style={styles.image} className="cardImage" />
+                <div className="textCont">
+                    <p style={{ margin: "10px" }}>{props.desc}</p>
+                </div>
+                <style jsx>{`
+                    @media only screen and (max-width:685px) {
+                        .cardContainer {
+                            width:75vw !important;
+                            position: relative;
+                        }
                     }
-                }
-                `}</style>
+                    `}</style>
+            </div>
         </div>
     )
 }

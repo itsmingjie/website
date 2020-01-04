@@ -105,8 +105,11 @@ export default class Index extends React.Component {
                         </div>
                     </Box>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw",textAlign:"center"}}>
                     <h1>Our Venue</h1>
+                    <div className="row">
+                        <div style={{padding:"15px",marginLeft:"auto",marginRight:"auto",color:"white",overflow:"hidden"}} className="mapouter"><div className="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Union%20Hall%2C%201311%20Vine%20Street%2C%20Cincinnati%2C%20Ohio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style jsx>{`.mapouter{position:relative;text-align:right;height:500px;width:500px;border-radius:30px;}.gmap_canvas {border-radius:30px;overflow:hidden;background:none!important;height:500px;width:500px;}`}</style></div>
+                    </div>
                     <div className="row">
                         <ImageBox src="../static/venue1.jpg" desc="Front side of our venue!"/>
                         <ImageBox src="../static/venue2.jpg" desc="The beautiful kitchen!"/>
@@ -119,8 +122,9 @@ export default class Index extends React.Component {
                     <h2>Silver</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <SponsorCard href="https://balsamiq.com" target="_blank" src="../static/sponsor/balsamiq-logo.svg"/>
-                        <SponsorCard href="https://kroger.com" target="_blank" src="https://www.wonderlab.org/wp-content/uploads/2016/01/kroger-logo.png"/>
+                        <SponsorCard href="https://kroger.com" target="_blank" src="../static/sponsor/kroger-new.png"/>
                         <SponsorCard href="https://www.losant.com" target="_blank" src="../static/sponsor/losant-logo-horiz-01-04.png"/>
+                        <SponsorCard src="https://s2-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/250/400/original/Callibrity_Full_Color.png?1554299818" href="https://www.callibrity.com/"/>
                     </div>
                     <h2>Bronze</h2>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
