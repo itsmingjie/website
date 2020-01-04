@@ -2,23 +2,29 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Footer from "../components/Footer";
 export default class Layout extends React.Component {
-    render() {
-        return(
-            <div>
-                <Head>
-                    <title>Hack The New Year</title>
-                    <link rel="icon" href="../static/htny-logo.png"/>
-                    <meta name="google-site-verification" content="3fDbFUZsZdQv6p0RFyQyHePBXThFOm0SfRPxUXK8YAs" />
-                    <meta name="keywords" content="Hack,New Year,Hack the New Year,hackathon"></meta>
-                    <meta name="title" content="Hack the New Year" />
-                    <meta name="description" content="Be The Future"/>
-                </Head>
-                <div style={{position:"block"}}>
-                <Navbar/>
-                {this.props.children}
-                </div>
-                <Footer id="footer"/>
-                <style jsx global>{`
+  render() {
+    return (
+      <div>
+        <Head>
+          <title>Hack The New Year</title>
+          <link rel="icon" href="../static/htny-logo.png" />
+          <meta
+            name="google-site-verification"
+            content="3fDbFUZsZdQv6p0RFyQyHePBXThFOm0SfRPxUXK8YAs"
+          />
+          <meta
+            name="keywords"
+            content="Hack,New Year,Hack the New Year,hackathon"
+          ></meta>
+          <meta name="title" content="Hack the New Year" />
+          <meta name="description" content="Be The Future" />
+        </Head>
+        <div style={{ position: "block" }}>
+          <Navbar />
+          {this.props.children}
+        </div>
+        <Footer id="footer" />
+        <style jsx global>{`
                 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
                 body ::-webkit-scrollbar {
                     display: none;
@@ -104,7 +110,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                 }
                 .inner {
                     width:50%;
-                    margin:20px;
+                    margin:10px;
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
@@ -132,9 +138,9 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                     z-index:1;
                     margin:auto;
                     display: flex;
-                    flex-direction:column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                    flex-direction:column;
                     margin-top:20vh;
-                    text-align:center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                    text-align:center;
                 }
                 .title {
                     font-size:4em;
@@ -149,7 +155,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                     margin:auto;
                 }
                 a {
-                    color:#009ece;
+                    color:#05aff2;
                     font-weight:700;
                 }
                 @media only screen and (max-width:685px) {
@@ -174,7 +180,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                     }
                 }
                 `}</style>
-            </div>
-        )
-    }
+      </div>
+    );
+  }
 }

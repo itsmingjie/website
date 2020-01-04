@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default class Navbar extends React.Component {
     render() {
         return (
