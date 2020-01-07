@@ -114,7 +114,7 @@ background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, F
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
-                    background-image: url("../static/blurry.png");
+                    background-image: url("../static/blurry.jpg");
                     z-index:0;
                     background-position: center;
                     background-repeat: no-repeat;

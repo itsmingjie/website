@@ -80,7 +80,7 @@ export default class Index extends React.Component {
                         <div className="row">
                             <div className="inner">
                                 <h2>How do I get there? 🚗</h2>
-                                <p>The event is located at Union Hall, 1311 Vine Street, Cincinnati, Ohio, 45202. We highly recommend that you have a parent drop you off as parking in the area is difficult. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
+                                <p>The event is located at Union Hall, 1311 Vine Street, Cincinnati, Ohio, 45202. We highly recommend that you have a parent drop you off, but if not you can find parking right across the street. For those located outside the Cincinnati area, we are currently unable to provide travel assistance but urge you to check out <a href="https://grant.executebig.org">Execute Big's travel grants</a> if you want to come.</p>
                             </div>
                             <div className="inner">
                                 <h2>Is there a theme? 🤖</h2>
@@ -113,7 +113,7 @@ export default class Index extends React.Component {
                                     <h2>Saturday Jan 11</h2>
                                     <p><strong>9:00 AM</strong> Doors Open 🚪</p>
                                     <p><strong>10:00 AM</strong> Opening Ceremoney & Icebreaker 📹</p>
-                                    <p><strong>11>:00 AM</strong> Hacking Begins 💻</p>
+                                    <p><strong>11:00 AM</strong> Hacking Begins 💻</p>
                                     <p><strong>12:00 PM</strong> Lunch 🍎</p>
                                     <p><strong>6:30 PM</strong> Dinner 🌮</p>
                                     <p><strong>7:30 PM</strong> CTF Starts 👩‍💻</p>
@@ -142,7 +142,7 @@ export default class Index extends React.Component {
                         <div className="row" style={{flexWrap:"wrap",width:"70vw", marginLeft:"auto",marginRight:"auto"}}>
                             <ImageBox src="../static/venue1.jpg" desc="Front side of our venue!"/>
                             <ImageBox src="../static/venue2.jpg" desc="The beautiful kitchen!"/>
-                            <ImageBox src="../static/venue3.jpg" desc="Ebic seats that you can hack on!"/>
+                            <ImageBox src="../static/venue3.jpg" desc="Epic seats that you can hack on!"/>
                             <ImageBox src="../static/venue4.jpg" desc="Another awesome kitchen!"/>
                         </div>
                     </div>
