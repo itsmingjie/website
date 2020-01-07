@@ -18,7 +18,6 @@ function Footer () {
                         <FaTwitter/>
                     </a>
                 </div>
-                <p>MIT License</p>
             </div>
             <style jsx>{`
             .footer {
