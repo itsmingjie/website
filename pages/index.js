@@ -189,7 +189,7 @@ export default class Index extends React.Component {
                         <Profile src="https://pic.jpjp.repl.co/jp.jpg" name="JP Mason" desc="Director of Hacker Experience"/>
                         <Profile src="../static/profiles/harshith.jpg" name="Harshith Iyer" desc="Director of Finance & Sponsorship"/>
                         <Profile src="../static/profiles/neel.jpg" name="Neel Redkar" desc="Web Developer"/>
-                        <Profile src="../static/profiles/garret.jpg" name="Garrett Thompson" desc="Social Media Manager"/>
+                        <Profile src="../static/profiles/garret.jpg" name="Garrett Thompson" desc="Social Media"/>
                     </div>
                 </div>
                 {/* <div style={{color:"white",marginLeft:"5vw",width:"90vw"}} id="judges">
