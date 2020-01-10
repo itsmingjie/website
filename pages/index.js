@@ -114,15 +114,18 @@ export default class Index extends React.Component {
                                     <p><strong>9:00 AM</strong> Doors Open 🚪</p>
                                     <p><strong>10:00 AM</strong> Opening Ceremoney & Icebreaker 📹</p>
                                     <p><strong>11:00 AM</strong> Hacking Begins 💻</p>
-                                    <p><strong>12:00 PM</strong> Lunch 🍎</p>
+                                    <p><strong>1:00 PM</strong> Web Dev Workshop w/ Melody</p>
+                                    <p><strong>3:00 PM</strong> INTERalliance Worksop w/ Tyler</p>
+                                    <p><strong>5:00 PM</strong>GitKraken Workshop w/ Evan</p>
                                     <p><strong>6:30 PM</strong> Dinner 🌮</p>
                                     <p><strong>7:30 PM</strong> CTF Starts 👩‍💻</p>
-                                    <p><strong>9:00 PM</strong> CTF Ends 👨‍💻</p>
                             </div>
                             <div style={{display:"flex",flexDirection:"column",flex:1,textAlign:"center"}}>
                                 <h2>Sunday Jan 12</h2>
                                 <p><strong>12:00 AM</strong> Midnight Snack 🍩</p>
+                                <p><strong>12:30 AM</strong> CTF Ends 👨‍💻</p>
                                 <p><strong>1:00 AM</strong> Minecraft Survival Games ⚔️</p>
+                                <p><strong>2:30 AM</strong> Kahoot.it Tournament ⚔️</p>
                                 <p><strong>9:00 AM</strong> Breakfast 🥞</p>
                                 <p><strong>7:00 AM</strong> Hacking Ends 😥</p>
                                 <p><strong>9:45 AM</strong> Presentations Begin 🎥</p>
